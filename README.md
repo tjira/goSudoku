@@ -46,7 +46,7 @@ The executable has two modes: generate and solve. Simple sudoku can be generated
 and solved by 
 
 ```shell
-./sudoku --input=examples/examples.txt solve
+./sudoku --input=filename.txt solve
 ```
 
 Several parameter can be passed to both modes as described below
