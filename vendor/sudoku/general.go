@@ -89,7 +89,7 @@ func Print(field [][]int) {
 			if field[i][j] == 0 {
 				fmt.Printf("  ")
 			} else {
-				fmt.Printf("%d ", field[i][j])
+				fmt.Printf("%d ", field[i][j])
 			}
 			if j == 8 {
 				fmt.Println("║")
