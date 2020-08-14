@@ -1,13 +1,11 @@
 package main
 
 import (
+	"flag"
+	"fmt"
 	"sudoku"
 	"time"
-	"fmt"
-	"flag"
 )
-
-
 
 func main() {
 	var solutions = flag.Int("solutions", 1, "Approximate number of puzzle solutions.")

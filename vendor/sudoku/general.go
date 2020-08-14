@@ -1,11 +1,11 @@
 package sudoku
 
 import (
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
 	"os"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func EmptyFields(field [][]int) [][]int {
